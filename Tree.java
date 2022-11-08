@@ -11,9 +11,7 @@ public class Tree {
         HashSet<Integer> set = new HashSet<>();
         if (!isSum(set, root, sum)) {
 			System.out.print("Print nodes are not found."+ "\n");
-        } else {
-        	 isSum(set, root, sum);
-        }
+        } 
     }
 
     public static boolean isSum(HashSet set, Node root, int sum) {
