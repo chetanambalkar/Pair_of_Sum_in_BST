@@ -10,7 +10,7 @@ public class Tree {
     public static void isSum(int sum, Node root) {
         HashSet<Integer> set = new HashSet<>();
         if (!isSum(set, root, sum)) {
-			System.out.print("Print nodes are not found."+ "\n");
+			System.out.print("Nodes are not found."+ "\n");
         } 
     }
 
