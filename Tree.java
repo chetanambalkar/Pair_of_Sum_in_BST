@@ -9,7 +9,11 @@ public class Tree {
 
     public static void isSum(int sum, Node root) {
         HashSet<Integer> set = new HashSet<>();
-        isSum(set, root, sum);
+        if (!isSum(set, root, sum)) {
+			System.out.print("Print nodes are not found."+ "\n");
+        } else {
+        	 isSum(set, root, sum);
+        }
     }
 
     public static boolean isSum(HashSet set, Node root, int sum) {
